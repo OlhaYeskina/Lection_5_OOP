@@ -6,6 +6,7 @@ package com.epam.olha_yeskina.java.lecture_5.task_1;
  * Провести сортировку конфет в подарке на основе одного из параметров.
  * Найти конфету в подарке, соответствующую заданному диапазону параметров.
  */
+
 public class NewYearsGift {
     public static void main(String[] args) {
 
