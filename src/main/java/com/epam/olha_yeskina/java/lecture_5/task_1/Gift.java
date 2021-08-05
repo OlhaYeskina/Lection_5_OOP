@@ -17,6 +17,7 @@ public class Gift implements GiftInterface, Comparator<Candy> {
         return calculateGiftWeight();
     }
 
+    @Override
     public void outputGiftInformation() {
         System.out.println("Gift weight: " + getGiftWeight());
     }
@@ -24,6 +25,7 @@ public class Gift implements GiftInterface, Comparator<Candy> {
     public void addCandyToGift(Candy candy) {
         candys.add(candy);
     }
+
 
     public void outputGiftCandysInformation() {
         for (Candy candy : this.candys)

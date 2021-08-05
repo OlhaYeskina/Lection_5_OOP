@@ -14,7 +14,7 @@ public class NewYearsGift {
     public static void main(String[] args) {
         Candy candy1 = new Candy("Alenka1", 15, 50);
         Candy candy2 = new Candy("Alenka3", 20, 50);
-        Candy candy3 = new Candy("Alenka2", 43, 50);
+        Candy candy3 = new ToppingCandy("Alenka2", 43, 50, "Chocolate");
         Gift newYearGift = new Gift();
         newYearGift.addCandyToGift(candy1);
         newYearGift.addCandyToGift(candy2);
